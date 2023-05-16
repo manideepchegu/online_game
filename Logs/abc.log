@@ -1,0 +1,186 @@
+WARNING:2023-05-10 23:50:57,709:app:starting the data base connection
+ERROR:2023-05-10 23:50:57,710:settings:Error occurred: data missing
+WARNING:2023-05-10 23:52:08,304:app:starting the data base connection
+ERROR:2023-05-10 23:52:08,305:settings:Error occurred: data missing
+WARNING:2023-05-10 23:55:07,348:app:starting the data base connection
+ERROR:2023-05-10 23:55:07,349:settings:Error occurred: data missing
+WARNING:2023-05-10 23:55:24,614:app:starting the data base connection
+ERROR:2023-05-10 23:55:24,615:settings:Error occurred: data missing
+WARNING:2023-05-10 23:55:39,727:app:starting the data base connection
+ERROR:2023-05-10 23:55:39,728:settings:Error occurred: 'psycopg2.extensions.cursor' object attribute 'execute' is read-only
+WARNING:2023-05-11 00:01:05,530:app:starting the data base connection
+ERROR:2023-05-11 00:01:05,678:settings:Error occurred: syntax error at or near "("
+LINE 1: ...er_data(name, strength, power, intelligenceVALUES ('player1'...
+                                                             ^
+
+WARNING:2023-05-11 00:04:34,614:app:starting the data base connection
+ERROR:2023-05-11 00:04:34,756:settings:Error occurred: syntax error at or near "("
+LINE 1: ...er_data(name, strength, power, intelligenceVALUES ('player1'...
+                                                             ^
+
+WARNING:2023-05-11 00:06:47,794:app:starting the data base connection
+ERROR:2023-05-11 00:06:47,903:app:Exception on /game/insert [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_character' did not return a valid response. The function either returned None or ended without a return statement.
+WARNING:2023-05-11 00:17:25,168:app:starting the data base connection
+ERROR:2023-05-11 00:17:25,270:app:Exception on /game/insert [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_character' did not return a valid response. The function either returned None or ended without a return statement.
+WARNING:2023-05-11 00:18:26,364:app:starting the data base connection
+ERROR:2023-05-11 00:18:26,467:app:Exception on /game/insert [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_payer' did not return a valid response. The function either returned None or ended without a return statement.
+WARNING:2023-05-11 00:18:45,337:app:starting the data base connection
+ERROR:2023-05-11 00:18:45,448:app:Exception on /game/insert [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_player' did not return a valid response. The function either returned None or ended without a return statement.
+WARNING:2023-05-11 00:25:40,238:app:starting the data base connection
+ERROR:2023-05-11 00:25:40,347:app:Exception on /game/insert [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_player' did not return a valid response. The function either returned None or ended without a return statement.
+WARNING:2023-05-11 00:26:23,337:app:starting the data base connection
+ERROR:2023-05-11 00:26:23,450:app:Exception on /game/insert [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_player' did not return a valid response. The function either returned None or ended without a return statement.
+WARNING:2023-05-11 10:20:39,027:app:starting the data base connection
+ERROR:2023-05-11 10:20:39,315:app:Exception on /game/attack [POST]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/online game/app.py", line 70, in attack
+    cur.execute("DELETE FROM characters WHERE name=%s;", (defender,))
+psycopg2.errors.UndefinedTable: relation "characters" does not exist
+LINE 1: DELETE FROM characters WHERE name='player1';
+                    ^
+
+WARNING:2023-05-11 10:24:12,050:app:starting the data base connection
+WARNING:2023-05-16 00:16:26,802:app:starting the database connection
+ERROR:2023-05-16 00:16:26,803:app:Exception on /details/update/5 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/online game/app.py", line 78, in treatment_update
+    intelligence = data['intelligence']
+KeyError: 'intelligence'
+WARNING:2023-05-16 00:17:11,814:app:starting the database connection
+ERROR:2023-05-16 00:17:11,814:app:Exception on /details/update/5 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/online game/app.py", line 78, in treatment_update
+    intelligence = data['intelligence']
+KeyError: 'intelligence'
+WARNING:2023-05-16 00:19:27,693:app:starting the database connection
+ERROR:2023-05-16 00:19:27,693:app:Exception on /details/update/5 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/online game/app.py", line 78, in treatment_update
+    intelligence = data['intelligence']
+KeyError: 'intelligence'
+WARNING:2023-05-16 00:20:03,472:app:starting the database connection
+ERROR:2023-05-16 00:20:03,474:app:Exception on /details/update/5 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/online game/app.py", line 78, in treatment_update
+    intelligence = data['intelligence']
+KeyError: 'intelligence'
+WARNING:2023-05-16 00:21:29,423:app:starting the database connection
+ERROR:2023-05-16 00:21:29,423:app:Exception on /details/update/5 [PUT]
+Traceback (most recent call last):
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/bc2113447/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/bc2113447/Desktop/online game/app.py", line 78, in treatment_update
+    intelligence = data['intelligence']
+KeyError: 'intelligence'
+WARNING:2023-05-16 00:21:54,642:app:starting the database connection
+WARNING:2023-05-16 00:25:50,272:app:starting the database connection
+WARNING:2023-05-16 00:25:50,400:app:close the database connection
+WARNING:2023-05-16 00:29:17,354:app:starting the database connection
+WARNING:2023-05-16 00:30:27,257:app:starting the database connection
+WARNING:2023-05-16 00:32:00,628:app:starting the database connection
